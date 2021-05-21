@@ -1,9 +1,9 @@
-# ⚔️ Ignite - Desafio 7: Testes Unitários
+# ⚔️ Ignite - Desafio 7: Testes Automatizados - Unidade e Integração
 ![](assets/capa_ignite.png)
 <br>
 
 ## :pushpin: Sobre o Desafio
-Este desafio tem como objetivo a criação de  testes unitários para aplicação FinAPI.
+Este desafio tem como objetivo a criação de  testes automatizados de **unidade** e **integração** para aplicação FinAPI.
 Esta aplicação possui **Criação**, **Autenticação** com **JWT Token** e **Exibição** de Usuário e o gerenciamento de Conta Corrente, podendo realizar **Depósitos**, **Saques** e **Consultas de uma operação específica**.
 
 O _template_ de arquivos utilizados neste projeto pode ser acessado em: [**template.**](https://github.com/rocketseat-education/ignite-template-tests-challenge)
@@ -14,11 +14,11 @@ O documento de referência de Requisitos e Regras de Negócio pode acessado atra
 ## 💻 Instalação, Dependências e Executando o Projeto
 **1.** Clone este repositório
 ```
-git clone git@github.com:Ygohr/unitary-tests-challenge-ignite-nodejs.git
+git clone git@github.com:Ygohr/automated-tests-challenge-ignite-nodejs.git
 ```
 **2.** Vá até o diretório raiz do projeto
 ```
-cd unitary-tests-challenge-ignite-nodejs
+cd automated-tests-challenge-ignite-nodejs
 ```
 **3.** Instale as dependências necessárias
 ```
@@ -36,7 +36,7 @@ Para realização de **requisições** na aplicação, deve ser utilizado o **In
 Atentar-se aos parâmetros necessários no **Header**.
 
 ## :syringe: Evidência de Testes
-Nesta aplicação, são contemplados **Testes Unitários**, visando garantir o correto funcionamento das funcionalidades e manter a aplicação de acordo com os requisitos. <br/>
+Nesta aplicação, são contemplados **Testes Unitários e Testes de Integração**, visando garantir o correto funcionamento das funcionalidades e manter a aplicação de acordo com os requisitos. <br/>
 ```
 yarn test
 ```
