@@ -40,6 +40,6 @@ Nesta aplicação, são contemplados **Testes Unitários e Testes de Integraçã
 ```
 yarn test
 ```
-![](assets/test_evidence.png)
+
 
 - **Desenvolvido** **por** [**Ygohr**](https://www.linkedin.com/in/ygohr-medeiros-28451b14a/) 🤖
