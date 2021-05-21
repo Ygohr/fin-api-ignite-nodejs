@@ -38,6 +38,6 @@ Atentar-se aos parâmetros necessários no **Header**.
 ## :syringe: Evidência de Testes
 Nesta aplicação, são contemplados **Testes Unitários e Testes de Integração**, visando garantir o correto funcionamento das funcionalidades e manter a aplicação de acordo com os requisitos. <br/>
 
-![](assets/test_evidence.png)
+![](assets/test-evidence.png)
 
 - **Desenvolvido** **por** [**Ygohr**](https://www.linkedin.com/in/ygohr-medeiros-28451b14a/) 🤖
