@@ -22,13 +22,13 @@ describe("Create User Controller", () => {
   });
 
   it('1) Should /POST /api/v1/users to create a new user', async () => {
-    const result = await request(app).post('/api/v1/users').send(mocked_user2);
+    const result = await request(app).post('/api/v1/users').send({name: mocked_user2.name, email: mocked_user2.email, password: mocked_user2.password});
     expect(result.status).toBe(201);
   });
 
   it('2) Should /POST /api/v1/users and dont create a existent user', async () => {
-    await request(app).post('/api/v1/users').send(mocked_user3);
-    const result = await request(app).post('/api/v1/users').send(mocked_user3);
+    await request(app).post('/api/v1/users').send({name: mocked_user3.name, email: mocked_user3.email, password: mocked_user3.password});
+    const result = await request(app).post('/api/v1/users').send({name: mocked_user3.name, email: mocked_user3.email, password: mocked_user3.password});
     expect(result.status).toBe(400);
   });
 });

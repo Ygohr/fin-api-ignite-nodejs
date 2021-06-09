@@ -13,6 +13,7 @@ const mocked_user = {
 describe("Create Statement Controller", () => {
   beforeAll(async () => {
     connection = await createConnection();
+    await request(app).post('/api/v1/users').send({name: mocked_user.name, email: mocked_user.email, password: mocked_user.password});
   });
 
   it('1) Should /POST /api/v1/statements/deposit to create a statement of type deposit', async () => {

@@ -13,11 +13,11 @@ const mocked_user = {
 describe("Get Statement Operation Controller", () => {
   beforeAll(async () => {
     connection = await createConnection();
+    await request(app).post('/api/v1/users').send({name: mocked_user.name, email: mocked_user.email, password: mocked_user.password});
   });
 
   it('1) Should /GET /api/v1/statements/:statement_id to recover statement operation', async () => {
-
-    const authenticationResponse = await request(app).post('/api/v1/sessions').send({email: mocked_user.email, password: mocked_user.password});
+  const authenticationResponse = await request(app).post('/api/v1/sessions').send({ email: mocked_user.email, password: mocked_user.password });
     const { token } = authenticationResponse.body;
 
     const statementResponse = await request(app).post('/api/v1/statements/deposit')

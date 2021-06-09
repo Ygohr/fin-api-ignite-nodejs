@@ -1,15 +1,15 @@
-# ⚔️ Ignite - Desafio 7: Testes Automatizados - Unidade e Integração
+# ⚔️ Ignite - Desafio 8: Evoluindo a Aplicação FinAPI
 ![](assets/capa_ignite.png)
 <br>
 
 ## :pushpin: Sobre o Desafio
-Este desafio tem como objetivo a criação de  testes automatizados de **unidade** e **integração** para aplicação FinAPI.
-Esta aplicação possui **Criação**, **Autenticação** com **JWT Token** e **Exibição** de Usuário e o gerenciamento de Conta Corrente, podendo realizar **Depósitos**, **Saques** e **Consultas de uma operação específica**.
+Este desafio tem como objetivo a criação de uma nova funcionalidade na aplicação que possibilitará a **transferência** de valores entre usuários cadastrados na aplicação.
+Esta aplicação possui **Criação**, **Autenticação** com **JWT Token** e **Exibição** de Usuário e o gerenciamento de Conta Corrente, podendo realizar **Depósitos**, **Transferências**, **Saques** e **Consultas de uma operação específica**.
 
 O _template_ de arquivos utilizados neste projeto pode ser acessado em: [**template.**](https://github.com/rocketseat-education/ignite-template-tests-challenge)
 
 ## 📋 Requisitos e Regras de Negócio
-O documento de referência de Requisitos e Regras de Negócio pode acessado através deste [**link.**](https://www.notion.so/Requisitos-e-Regras-de-Neg-cio-Testes-Unit-rios-M-dulo-4-Desafio-1-Ignite-076b666d1a064a3cbe6042eeb2f52c04)
+O documento de referência de Requisitos e Regras de Negócio pode acessado através deste [**link.**](https://www.notion.so/Requisitos-e-Regras-de-Neg-cio-Trasnfer-ncias-na-FinAPI-M-dulo-5-Desafios-1-Ignite-2207278aad654b2ea1aef83cc7ef11a1)
 
 ## 💻 Instalação, Dependências e Executando o Projeto
 **1.** Clone este repositório
@@ -18,7 +18,7 @@ git clone git@github.com:Ygohr/fin-api-ignite-nodejs.git
 ```
 **2.** Vá até o diretório raiz do projeto
 ```
-cd automated-tests-challenge-ignite-nodejs
+cd fin-api-ignite-nodejs
 ```
 **3.** Instale as dependências necessárias
 ```
